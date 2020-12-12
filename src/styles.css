@@ -1,0 +1,67 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 50%;
+  margin: 2.5rem auto 2rem auto;
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 25px gray;
+  opacity: 80%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.onclick-event {
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 200%;
+  margin: 1rem;
+}
+
+input {
+  width: 50%;
+  height: 15vh;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border: 0.2rem solid black;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+h2 {
+  width: 50%;
+  margin: auto;
+  border-bottom: 2px solid;
+  border-radius: 2rem;
+}
+
+.onclick-view {
+  width: 60%;
+  margin: auto;
+  padding: 0;
+}
+
+@media all and (max-width: 800px) {
+  .App {
+    width: 80%;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .onclick-view {
+    width: 100%;
+    font-size: 10px;
+  }
+}
+
+@media all and (min-width: 801px) and (max-width: 1300px) {
+  .onclick-view {
+    font-size: 10px;
+    width: 80%;
+  }
+}
