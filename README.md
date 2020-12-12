@@ -2,7 +2,7 @@
 
 ActivityPedia is the application that shows the meaning or name of the activity emoji 
 
-## Technolgy 
+## Technology 
 - React
 - CSS
 - HTML
